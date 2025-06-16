@@ -1,0 +1,73 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.div-1{
+  margin-bottom: 60px;
+}
+
+.number-button{
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.number-button:hover{
+  background-color: #555;
+}
+
+.function-button {
+  width: 100px;
+  height: 60px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: pre-line;  /* Allows newline in button text */
+  text-align: center;
+  line-height: 1.2;
+}
+.function-button:hover {
+  background-color: #666;
+}
+.function-button.active {
+  background-color: #0a84ff;
+  color: white;
+}
+
+.js-timers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.timer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.delete-timer-button,
+.start-timer-button {
+  width: 80px;
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
